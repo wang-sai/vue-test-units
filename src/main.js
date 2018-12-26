@@ -3,8 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import api from '@/common/js/api'
+import '@/common/stylus/index.styl'
 
 Vue.config.productionTip = false
+
+Vue.prototype.$http = api
 
 /* eslint-disable no-new */
 new Vue({
