@@ -124,7 +124,7 @@ export default {
             vertical-align: top
             width: 30px
             height: 18px
-            bg-image('brand')
+            bg-image('./img/brand')
             background-size: 30px 18px
             background-repeat: no-repeat
           .name
@@ -147,15 +147,15 @@ export default {
             background-size: 12px 12px
             background-repeat: no-repeat
             &.decrease
-              bg-image('decrease_1')
+              bg-image('./img/decrease_1')
             &.discount
-              bg-image('discount_1')
+              bg-image('./img/discount_1')
             &.guarantee
-              bg-image('guarantee_1')
+              bg-image('./img/guarantee_1')
             &.invoice
-              bg-image('invoice_1')
+              bg-image('./img/invoice_1')
             &.special
-              bg-image('special_1')
+              bg-image('./img/special_1')
           .text
             line-height: 12px
             font-size: 10px
@@ -193,7 +193,7 @@ export default {
         margin-top: 8px
         width: 22px
         height: 12px
-        bg-image('bulletin')
+        bg-image('./img/bulletin')
         background-size: 22px 12px
         background-repeat: no-repeat
       .bulletin-text
@@ -277,15 +277,15 @@ export default {
                 background-size: 16px 16px
                 background-repeat: no-repeat
                 &.decrease
-                  bg-image('decrease_2')
+                  bg-image('./img/decrease_2')
                 &.discount
-                  bg-image('discount_2')
+                  bg-image('./img/discount_2')
                 &.guarantee
-                  bg-image('guarantee_2')
+                  bg-image('./img/guarantee_2')
                 &.invoice
-                  bg-image('invoice_2')
+                  bg-image('./img/invoice_2')
                 &.special
-                  bg-image('special_2')
+                  bg-image('./img/special_2')
               .text
                 line-height: 16px
                 font-size: 12px
